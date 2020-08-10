@@ -1,0 +1,84 @@
+@media (min-width : 1200px){
+    /* OK */
+}
+@media (min-width: 992px) and (max-width:1199px){
+    .navbar{
+        padding:10px 20px;
+    }
+}
+@media (min-width: 768px) and (max-width:991px){ 
+    .navbar{
+        padding:10px 20px;
+        background: rgba(0,0,0,0.7);
+    }
+    #about .about-bg-img{
+        border: none;
+        height: 350px;
+        width: 100%;
+    }
+    #about .about-page{
+        height: auto;
+    }
+    #about .text-about{
+        display: block;
+    }
+    
+ }
+ @media (min-width: 576px) and (max-width:767px){ 
+    .navbar{
+        padding:10px 20px;
+        background: rgba(0,0,0,0.7);
+    }
+    .header-text h3{
+        font-size: 40px;
+    }
+    #about .about-bg-img{
+        border: none;
+        height: 350px;
+        width: 100%;
+    }
+    #about .about-page{
+        height: auto;
+    }
+    #about .text-about{
+        display: block;
+    }
+    #footer-left p{
+        text-align: center;
+    }
+  }
+@media (max-width: 575px) { 
+    .navbar{
+        padding:10px 20px;
+        background: rgba(0,0,0,0.7);
+    }
+    .header-text h3{
+        font-size: 32px;
+    }
+    #about .about-bg-img{
+        border: none;
+        height: 350px;
+        width: 100%;
+    }
+    #about .about-page{
+        height: auto;
+    }
+    #about .text-about{
+        display: block;
+    }
+    #footer-left p{
+        text-align: center;
+    }
+    .text-header h3{
+        font-size: 30px;
+    }
+    #customer-review .img-circle{
+        max-width: 120px;
+    }
+    #customer-review blockquote p{
+        font-size: 12px;
+    }
+    p{
+        font-size: 14px;
+    }
+  }
